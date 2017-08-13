@@ -1,5 +1,5 @@
-project('mimic-cmu_us_slt', 'c', default_options : ['c_std=c99'], version: '0')
-voice_name = 'cmu_us_slt'
+project('mimic-cmu_us_slt_hts', 'c', default_options : ['c_std=c99'], version: '0')
+voice_name = 'cmu_us_slt_hts'
 
 build_plugin = get_option('plugin')
 

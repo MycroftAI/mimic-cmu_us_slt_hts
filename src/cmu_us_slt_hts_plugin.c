@@ -34,9 +34,6 @@
 /*************************************************************************/
 
 #include "cmu_us_slt_hts.h"
-
-#ifndef ENABLE_CMU_US_SLT_HTS_BUILTIN
 #include "cst_plugins.h"
 mimic_plugin_t mimic_plugin = { "voice_cmu_us_slt_hts", 0, &voice_cmu_us_slt_hts_plugin_init, &voice_cmu_us_slt_hts_plugin_exit};
-#endif
 
